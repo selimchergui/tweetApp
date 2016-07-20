@@ -108,7 +108,7 @@ public class MainFragment extends Fragment {
         try {
             String name = (String) getActivity().getIntent().getExtras().get("utName");
             utNameText.setText(name);
-            locationText.setText("<location>");
+            locationText.setText("< location >");
         } catch (NullPointerException e) {
         }
 
